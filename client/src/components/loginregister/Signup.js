@@ -24,8 +24,15 @@ export default function Login(props) {
   }, []);
 
   function validateForm() {
-    var mailformat = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
-    return email.match(mailformat) && email.length > 5 && password.length > 5;
+    var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if(email.match(mailformat))
+    {
+      return email.length > 5 && password.length > 5;
+    }
+    else
+    {
+      return false;
+    }
   }
 
   function handleSubmit(event) {
