@@ -1,0 +1,13 @@
+/api/register               Post Request, To register user
+/api/login                  Post Request, To login, returns JWT token    
+
+/api/boards/createboard     Post Request, Requires Auth, To Create New Board,Adds the current user to board
+/api/boards/updateboard     Post Request, Requires Auth, To Update The Board
+/api/boards/addtask         Post Request, Requires Auth, To Add Task to a Board
+/api/boards/updatetask      Post Request, Requires Auth, To Update a Task
+
+/api/validate               Get Request, Requires Auth, To Validate that key is expired or not 
+/api/users                  Get Request, Requires Auth, To get All users on platform 
+/api/boards                 Get Request, Requires Auth,Get Boards for the given User
+/api/boards/:id/Dashboard   Get Request, Requires Auth,Get Board details
+/api/logout                 Get Request, Requires Auth, Logout
