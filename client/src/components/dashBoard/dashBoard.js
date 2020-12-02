@@ -7,7 +7,7 @@ import UserService from "../../services/user.services";
 
 import NavigationBar from "../Navbar/navbar";
 import BoardCard from "../card/card";
-import NewBoard from "../model/newBoard";
+import NewBoard from "../modal/newBoard";
 import "./dashBoard.css";
 
 

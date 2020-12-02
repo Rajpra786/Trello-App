@@ -1,5 +1,6 @@
 import React from 'react';
-import {Form,Col,Modal,Button, Container,Row} from 'react-bootstrap';
+import {Form,Col,Modal,Button} from 'react-bootstrap';
+import "./model.css";
 
 function UserUpdateModel(props) {
     return (

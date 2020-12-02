@@ -1,5 +1,6 @@
 import React from 'react';
 import {Form,Col,Modal,Button, Container,Row} from 'react-bootstrap';
+import "./model.css";
 
 const Task = (props) => (
     <Modal

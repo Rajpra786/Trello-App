@@ -7,9 +7,9 @@ import UserService from "../../services/user.services";
 
 
 import NavigationBar from "../Navbar/navbar";
-import NewTask from "../model/newTask";
-import UserUpdateModel from "../model/userUpdate";
-import Task from "../model/Task";
+import NewTask from "../modal/newTask";
+import UserUpdateModel from "../modal/userUpdate";
+import Task from "../modal/Task";
 import TaskCard from "../card/taskCard";
 import GetBadge from "../card/getBadge";
 import "../dashBoard/dashBoard.css";

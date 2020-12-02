@@ -70,7 +70,7 @@ export default function Login(props) {
           </Navbar.Collapse>
         </Navbar>
 
-        <div className="Login App">
+        <div className="Login Login-header App">
           <Form noValidate onSubmit={handleSubmit}>
             <Form.Group controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>

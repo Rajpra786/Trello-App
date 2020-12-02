@@ -1,5 +1,6 @@
 import React from 'react';
 import {Form,Col,Modal,Button} from 'react-bootstrap';
+import "./model.css";
 
 const NewBoard = (props) => (
     <Modal
@@ -7,6 +8,7 @@ const NewBoard = (props) => (
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered
+      className="success"
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
