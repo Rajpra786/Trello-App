@@ -42,10 +42,6 @@ Basic Trello clone using the MERN stack.
 
 ### Screenshots
 
-![](screenshots/main.png)
-![](screenshots/loginPage.png)
-![](screenshots/signUpPage.png)
-![](screenshots/dashboard.png)
-![](screenshots/board.png)
+![](screenshots/gif.gif)
 
 
